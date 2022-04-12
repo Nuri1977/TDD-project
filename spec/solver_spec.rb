@@ -7,10 +7,10 @@ describe Solver do
     end
 
     it 'should calculate factoriel of ceratin input as integer number ' do
-      expect(@solver.factoriel(2)).to eq 2
-      expect(@solver.factoriel(5)).to eq 120
-      expect(@solver.factoriel(10)).to eq 3_628_800
-      expect(@solver.factoriel(15)).to eq 1_307_674_368_000
+      expect(@solver.factorial(2)).to eq 2
+      expect(@solver.factorial(5)).to eq 120
+      expect(@solver.factorial(10)).to eq 3_628_800
+      expect(@solver.factorial(15)).to eq 1_307_674_368_000
     end
 
     it 'should calculate reverse method with argument string word, and returns word reverse ' do
@@ -24,8 +24,8 @@ describe Solver do
       expect(@solver.fizzbuzz(100)).to eq 'buzz'
       expect(@solver.fizzbuzz(30)).to eq 'fizzbuzz'
       expect(@solver.fizzbuzz(90)).to eq 'fizzbuzz'
-      expect(@solver.fizzbuzz(14)).to eq '14'
-      expect(@solver.fizzbuzz(28)).to eq '28'
+      expect(@solver.fizzbuzz(14)).to eq 14
+      expect(@solver.fizzbuzz(28)).to eq 28
     end
   end
 end
